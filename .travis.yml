@@ -3,5 +3,5 @@ script: ant main
 
 before_install:
   - pip install --user codecov
-before_script:
+after_success:
   - codecov
