@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.ArrayList;
 public class TestSimulation {
-    public static void main() {
+    public static void main(String args[]) {
         Random r = new Random(System.nanoTime());
         int size;
         int numberOfQuestions = 5;
