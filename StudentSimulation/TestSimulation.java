@@ -13,7 +13,7 @@ public class TestSimulation {
             ArrayList<String> key = new ArrayList<String>();
             for(int v = 0; v<size; v++)
                 key.add(""+((char)(r.nextInt(5)+65)));
-            System.out.println(i+" - Key: "+key);
+            //System.out.println(i+" - Key: "+key);
             
             //Set up students
             ArrayList<StudentAnswerSheet> students = new ArrayList<StudentAnswerSheet>();
